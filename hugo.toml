@@ -1,8 +1,28 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Xenodesire'
-theme = 'nostyleplease'
-[params.theme_config]
-  appearance = "auto"
-  show_description = true
-  isListGroupByDate = true
+theme = 'archie'
+
+[pagination]
+pagerSize = 3
+
+[params]
+customcss = ["css/custom.css"]
+mode = "toggle"
+useCDN = false
+subtitle = "Welcome to the land of Xenodesire."
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3

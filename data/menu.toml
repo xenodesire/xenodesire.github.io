@@ -1,10 +1,19 @@
-post_list = true
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-[[entries]]
-  title = "Posts"
-  [entries.post_list]
-    section = "posts"
-    limit = 5
-    show_more = true
-    show_more_url = "/posts/"
-    show_more_text = "Ver todos →"
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
