@@ -2,3 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Xenodesire'
 theme = 'nostyleplease'
+[params.theme_config]
+  appearance = "auto"
+  show_description = true
+  isListGroupByDate = true

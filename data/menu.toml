@@ -1,0 +1,10 @@
+post_list = true
+
+[[entries]]
+  title = "Posts"
+  [entries.post_list]
+    section = "posts"
+    limit = 5
+    show_more = true
+    show_more_url = "/posts/"
+    show_more_text = "Ver todos →"
