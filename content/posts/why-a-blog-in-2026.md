@@ -1,6 +1,7 @@
 --- 
 title: "Why am I creating a blog in 2026?"
 author: "Bruno G. Ciccarino"
+draft: true
 date: 2026-07-08T03:00:00-03:00
 ---
 
