@@ -12,17 +12,32 @@ mode = "toggle"
 useCDN = false
 subtitle = "Welcome to the land of Xenodesire. Blog where I ramble about my thoughts, foolish or not, but that in my imagination somehow make sense. Here is my refuge, since with the coming of social networks the blogosphere lost strength, a futile attempt to revive the best era of the interweb. And if you have parachuted here, welcome to the deepest part of my soul."
 
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/xenodesire"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://x.com/xenodesire"
+
 [[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
 
 [[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
 name = "All posts"
 url = "/posts"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 3
+weight = 4
