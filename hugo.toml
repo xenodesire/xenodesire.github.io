@@ -22,6 +22,11 @@ name = "Twitter"
 icon = "twitter"
 url = "https://x.com/xenodesire"
 
+[[params.social]]
+name = "Matrix"
+icon = "simple:matrix"
+url = "https://matrix.to/#/@xenodesire:matrix.org"
+
 [[menu.main]]
 name = "Home"
 url = "/"
