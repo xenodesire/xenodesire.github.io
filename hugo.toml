@@ -8,6 +8,7 @@ pagerSize = 3
 
 [params]
 customcss = ["css/custom.css"]
+favicon = "/favicon.ico"
 mode = "toggle"
 useCDN = false
 subtitle = "Welcome to the land of Xenodesire. Blog where I ramble about my thoughts, foolish or not, but that in my imagination somehow make sense. Here is my refuge, since with the coming of social networks the blogosphere lost strength, a futile attempt to revive the best era of the interweb. And if you have parachuted here, welcome to the deepest part of my soul."
